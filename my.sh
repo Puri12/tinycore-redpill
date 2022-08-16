@@ -8,7 +8,7 @@ source myfunc.h # my.sh / myv.sh common use
 ########################################################################################################################
 
 mshellgz="my.sh.gz"
-mshtarfile="https://raw.githubusercontent.com/PeterSuh-Q3/tinycore-redpill/main/my.sh.gz"
+mshtarfile="https://raw.githubusercontent.com/Puri12/tinycore-redpill/main/my.sh.gz"
 
 # ==============================================================================          
 # Color Function                                                                          
@@ -200,8 +200,8 @@ cecho y "If fullupgrade is required, please handle it separately."
 
 cecho g "Downloading Peter Suh's custom configuration files.................."
 
-curl --location --progress-bar "https://github.com/PeterSuh-Q3/tinycore-redpill/raw/main/custom_config.json" -O
-curl --location --progress-bar "https://github.com/PeterSuh-Q3/tinycore-redpill/raw/main/custom_config_jun.json" -O
+curl --location --progress-bar "https://github.com/Puri12/tinycore-redpill/raw/main/custom_config.json" -O
+curl --location --progress-bar "https://github.com/Puri12/tinycore-redpill/raw/main/custom_config_jun.json" -O
 curl --location --progress-bar "https://github.com/Puri12/tinycore-redpill/raw/main/rploader.sh" -O
 curl --location --progress-bar "https://github.com/PeterSuh-Q3/rp-ext/raw/main/rpext-index.json" -O  
 

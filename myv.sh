@@ -9,7 +9,7 @@ source myfunc.h # my.sh / myv.sh common use
 ########################################################################################################################
                                                                                         
 mshellgz="my.sh.gz"
-mshtarfile="https://raw.githubusercontent.com/PeterSuh-Q3/tinycore-redpill/main/my.sh.gz"
+mshtarfile="https://raw.githubusercontent.com/Puri12/tinycore-redpill/main/my.sh.gz"
 
 # ==============================================================================                                        
 # Color Function                                                                                                        
@@ -139,8 +139,8 @@ fi
 
 getvars "$1"
 
-curl --location --progress-bar "https://github.com/PeterSuh-Q3/tinycore-redpill/raw/main/custom_config.json" -O
-curl --location --progress-bar "https://github.com/PeterSuh-Q3/tinycore-redpill/raw/main/custom_config_jun.json" -O	
+curl --location --progress-bar "https://github.com/Puri12/tinycore-redpill/raw/main/custom_config.json" -O
+curl --location --progress-bar "https://github.com/Puri12/tinycore-redpill/raw/main/custom_config_jun.json" -O	
 curl --location --progress-bar "https://github.com/PeterSuh-Q3/rp-ext/raw/main/rpext-index.json" -O
 
 cecho y "Adding Ext in progress..."                                                                                                                                     
@@ -149,7 +149,7 @@ EXDRIVER_FN
 
 if [ ! -f my.sh ]; then
     echo "my.sh file not found, trying to download"
-    curl --location "https://github.com/PeterSuh-Q3/tinycore-redpill/raw/main/my.sh.gz" --output my.sh.gz
+    curl --location "https://github.com/Puri12/tinycore-redpill/raw/main/my.sh.gz" --output my.sh.gz
     tar -zxvf my.sh.gz
 fi
 
