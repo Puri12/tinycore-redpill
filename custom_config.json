@@ -241,6 +241,36 @@
 	                        }]
            },
            {
+                    "id": "VirtualDSM-7.1.0-42661",
+                    "platform_version": "VirtualDSM-7.1.0-42661",
+                    "user_config_json": "VirtualDSM_user_config-test.json",
+                    "docker_base_image": "debian:8-slim",
+                    "redpill_lkm_make_target": "dev-v7",
+                    "compile_with": "toolkit_dev",
+                    "downloads": {
+                            "kernel": {
+          "url": "https://sourceforge.net/projects/dsgpl/files/Synology%20NAS%20GPL%20Source/25426branch/kvmx64-source/linux-4.4.x.txz/download",
+                    "sha256": "f288ee460f6b60dcfce5c20f566de954f8c7549f05c27ccd76edb392457c5f8a"
+
+                            },
+                            "toolkit_dev": {
+                                    "url": "https://sourceforge.net/projects/dsgpl/files/toolkit/DSM7.0/ds.kvmx64-7.0.dev.txz/download",
+                                    "sha256": "425abb98400caf5fedde5634021c2b17bb42ccf48d374df7548c02b0f9133607"
+                            }
+                    },
+                    "redpill_lkm": {
+                            "source_url": "https://github.com/Puri12/redpill-lkm.git",
+                            "branch": "master"
+                    },
+                    "redpill_load": {
+                            "source_url": "https://github.com/Puri12/redpill-load.git",
+                            "branch": "master"
+                    },
+            "add_extensions": [{
+  	            "redpill-misc" : "https://github.com/Puri12/redpill-load/raw/master/redpill-misc/rpext-index.json"
+	                        }]
+           },
+           {
                     "id": "v1000-7.1.0-42661",
                     "platform_version": "v1000-7.1.0-42661",
                     "user_config_json": "v1000_user_config-test.json",
